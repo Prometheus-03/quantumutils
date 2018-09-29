@@ -21,7 +21,7 @@ So quantumutils is my first attempt at making a library that everyone can use, a
 Some sample code outlining some of the functions of my bot.
 ```python
 import quantumutils
-print(quantumutils.find("Lorem","Lorem Ipsum Lorem"))
+print([i for i in quantumutils.find("Lorem","Lorem Ipsum Lorem")])
 >>> [0,12]
 print(await quantumutils.getjson("www.randomjsonreturner.com"))
 >>> {
